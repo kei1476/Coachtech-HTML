@@ -6,13 +6,86 @@
   <title>Document</title>
 </head>
 <body>
-  <footer>
-    <ul>
-      <li>コンテンツ</li>
-      <li>コンテンツ</li>
-      <li>コンテンツ</li>
-      <li>コンテンツ</li>
-    </ul>
-  </footer>
+    <header>
+      <h1>株式会社TECH</h1>
+      <nav>
+        <ul>
+          <li>ホーム</li>
+          <li>企業情報</li>
+          <li>会社概要</li>
+          <li>よくある質問</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="img/mv.png" alt="会社イメージ画像">
+
+      <p>最新のテクノロジーで社会課題を解決</p>
+
+      <div class="about">
+        <h2>会社概要</h2>
+        <table>
+          <tr>
+            <th>会社名</th>
+            <td>株式会社TECH</td>
+          </tr>
+          <tr>
+            <th>代表者</th>
+            <td>山田太郎</td>
+          </tr>
+          <tr>
+            <th>所在地</th>
+            <td>東京都渋谷区神宮前</td>
+          </tr>
+          <tr>
+            <th>設立</th>
+            <td>2019/07/17</td>
+          </tr>
+          <tr>
+            <th>従業員数</th>
+            <td>１００人</td>
+          </tr>
+          <tr>
+            <th>資本金</th>
+            <td>１０００万円</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+          <div>
+            <label for="company">
+              会社名 <input type="text" id="company">
+            </label>
+          </div>
+          
+          <div>
+            <label for="name">
+              お名前 <input type="text" id="name">
+            </label>
+          </div>
+          <div>
+            <label for="mail">
+              メールアドレス <input type="email" id="mail">
+            </label>
+          </div>
+
+          <div>
+            <label for="content">
+              問い合わせ内容<textarea cols="30" rows="10" id="content"></textarea> 
+            </label>
+          </div>
+
+          <input type="submit" value="お申し込み">
+        </form>
+      </div>
+
+    </main>
+    <footer>
+      <small>©2020 TECH inc.</small>
+    </footer>
 </body>
 </html>
